@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar >
+    <ion-title>Update Book</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-list lines="full">
+    <form [formGroup]="updateBookFg" (ngSubmit)="onSubmit()">
+      <ion-item>
+        <ion-label position="floating">Title</ion-label>
+        <ion-input formControlName="title" type="text" required></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Volume</ion-label>
+        <ion-input formControlName="volume" type="text">
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Author</ion-label>
+        <ion-input formControlName="author" type="text" required>
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Genre</ion-label>
+        <ion-input formControlName="genre" type="text" required>
+        </ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Photo</ion-label>
+        <ion-input formControlName="photo" type="text" >
+        </ion-input>
+      </ion-item>
+
+      <ion-row>
+        <ion-col>
+          <ion-button type="submit" color="success" expand="block">Update</ion-button>
+        </ion-col>
+      </ion-row>
+      
+    </form>
+  </ion-list>
+</ion-content>

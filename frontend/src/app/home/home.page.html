@@ -1,0 +1,40 @@
+<ion-content>
+  <ion-header>
+    <ion-toolbar color="favorite">
+      <ion-title>
+        Recomendación
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-card class="card" *ngFor="let b of book">
+    <ion-card-header>
+      <ion-item>
+        <img src="{{b.photo}}" />
+      </ion-item>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-card-title class="ion-text-wrap">
+        {{b.title}} {{b.volume}}
+      </ion-card-title>
+      <ion-card-subtitle class="ion-text-wrap">
+        {{b.author}}
+      </ion-card-subtitle>
+      <ion-card-subtitle class="ion-text-wrap" color="dark">
+        {{b.genre}}
+      </ion-card-subtitle>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<!-- <ion-list>
+  <ion-item *ngFor="let b of book[0]">
+    <ion-label>
+      <h1 class="title">{{b.title}} 
+      </h1>
+      <ion-img class="imagenes" src={{b.photo}}></ion-img>
+      <p>Pages: {{b.author}}</p>
+      <p>Volume: {{b.volume}}</p>
+      <p>Genre: {{b.genre}}</p>
+    </ion-label>
+  </ion-item>
+</ion-list> -->

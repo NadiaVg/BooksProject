@@ -1,0 +1,22 @@
+package com.book.app.entity.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.book.app.entity.model.Book;
+
+
+
+
+public interface IBookService {
+
+	
+	public List<Book> getAll();
+	
+	public Book getOne(long Id);
+
+	public void insert(Book book);
+	}
+
+
