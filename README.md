@@ -20,12 +20,25 @@ In this case a CRUD is made with images, verified in POSTMAN.
 The application consists of 3 sections:
 
 -Home: A randomly generated recommended book is displayed.
-193469784-49df3e76-5733-4d18-a1c9-26d6b3508479.png)
+
+![home](https://user-images.githubusercontent.com/114822178/193470309-408acf66-39ad-4036-9538-75f7937d1379.jpg)
+
 -Library: All the books are shown and it also includes a search engine. In each book there are two buttons: edit and delete.
-193469982-8d739418-9ee4-4999-bb15-030be53cf7f9.png)
-193469994-c3c07494-6d9e-4981-bbd7-25d00106cd11.png)
+
+![list](https://user-images.githubusercontent.com/114822178/193470314-29f59dc2-47b3-43a4-a805-c10cfbe5f8a8.jpg)
+
+![update](https://user-images.githubusercontent.com/114822178/193470330-a7ad5656-79c5-49f4-ad9f-e01c9cab8fb6.jpg)
+
+![search](https://user-images.githubusercontent.com/114822178/193470341-aa18e3ec-2a20-41ec-b510-f07562ae2663.jpg)
+
+
 -Add Book: A form to add a book is shown.
-193470029-5eb6279d-5f76-46fb-9053-818680929259.png)
+
+
+![add](https://user-images.githubusercontent.com/114822178/193470350-9157a9df-2780-4c72-adec-febc9709c5dc.jpg)
+
+
+
 REQUIREMENTS
 FRONTEND:
 	NODE
